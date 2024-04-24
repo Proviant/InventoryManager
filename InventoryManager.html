@@ -1,37 +1,203 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Main CSS -->
-    <link rel="stylesheet" href="resources/css/simple-css/simple.min.css">
     <link rel="stylesheet" href="resources/css/main/main.css">
     <title>The Inventory Manager</title>
 </head>
+
 <body>
-<div class="center">
-    <header>
-        <figure>
-            <h2 class="center">The Inventory Manager</h2>
-        </figure>
-    </header>
-    <main>
+<div id="tabs" class="box">Top bar for tabs and settings</div>
+<div class="row">
+    <div id="image" class="box">Image of Character
+    </div>
+    <div id="armor" class="col box">
         <div class="row">
-            <div class="module">
-                <span class="module-title">Simple Inventory</span>
-                <span class="module-descr">The default inventory with no restrictions</span>
+            <div class="col">
+                <h2 class="header">Armor-Slots</h2>
+                <div class="inventory">
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                    <div class="itemslot"></div>
+                </div>
             </div>
-            <div class="module">
-                <span class="module-title">Weight Based</span>
-                <span class="module-descr">Infinite slots but with a weight limit</span>
-            </div>
-            <div class="module">
-                <span class="module-title">Slot Based</span>
-                <span class="module-descr">Infinite Weight but with limited slots</span>
+            <div class="col">
+                <h2 class="header">Armor Values</h2>
+                <table class="data-table">
+                    <tr>
+                        <th>Zone</th>
+                        <th>Value</th>
+                    </tr>
+                    <tr>
+                        <td>Head</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>Chest</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>Shoulders</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>Arms</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>Hands</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>Legs</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>Feet</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td><b>Total Armor</b></td>
+                        <td><b>5</b></td>
+                    </tr>
+                </table>
             </div>
         </div>
-    </main>
+    </div>
+    <div id="gear" class="box">Equipped Gear</div>
+</div>
+<div class="row">
+    <div id="inv-settings" class="box">
+        <div class="col">
+            <h2 class="header">Settings</h2>
+            <div class="number-picker row">
+                <h5 class="header">Armor Slots</h5>
+                <button class="number-picker-button add">+</button>
+                <div class="number-field box">4</div>
+                <button class="number-picker-button remove">-</button>
+            </div>
+            <div class="number-picker row">
+                <h5 class="header">Gear Slots</h5>
+                <button class="number-picker-button add">+</button>
+                <div class="number-field box">4</div>
+                <button class="number-picker-button remove">-</button>
+            </div>
+            <div class="number-picker row">
+                <h5 class="header">Inventory Slots</h5>
+                <button class="number-picker-button add">+</button>
+                <div class="number-field box">4</div>
+                <button class="number-picker-button remove">-</button>
+            </div>
+            <div class="number-picker row">
+                <h5 class="header">Inventory Weight</h5>
+                <button class="number-picker-button add">+</button>
+                <div class="number-field box">4</div>
+                <button class="number-picker-button remove">-</button>
+            </div>
+        </div>
+    </div>
+    <div class="inventory box">
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+        <div class="itemslot"></div>
+    </div>
+    <div id="shop" class="box">Shop</div>
 </div>
 </body>
+
+<script>
+
+</script>
+
 </html>
